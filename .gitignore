@@ -1,6 +1,6 @@
 __pycache__
 .env
-docker-commpose.db.yml
+docker-compose.db.yml
 pdfloader.ipynb
 PDFproject.ipynb
 PDFproject.py
