@@ -1,0 +1,10 @@
+__pycache__
+.env
+docker-commpose.db.yml
+pdfloader.ipynb
+PDFproject.ipynb
+PDFproject.py
+temp.pdf
+TexttoTokens.ipynb
+The Ultimate Python Handbook.pdf
+virtualenv
