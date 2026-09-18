@@ -5,7 +5,7 @@ import requests
 import os
 load_dotenv()
 client = OpenAI(
-    api_key='GROK_API',
+    api_key=os.getenv("GROK_API"),
     base_url="https://api.groq.com/openai/v1"
 )
 
@@ -87,7 +87,7 @@ def run_agent(query: str, messages: list):
 
     while True:
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             response_format={"type": "json_object"},
             messages=messages
         )
